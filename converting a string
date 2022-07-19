@@ -1,0 +1,6 @@
+def reverseString(self, s: List[str]) -> None:
+        n=len(s)
+        x=[]
+        for i in range(n-1,-1,-1):
+            x.append(s[i])
+        print(x,end='')
