@@ -1,0 +1,21 @@
+n=int(input())
+if n>=1 and n&(n-1)==0:
+    print("power of2")
+else:
+    print("not a power of 2")
+            
+            
+            
+            in leetcode
+            
+ class Solution:
+    def isPowerOfTwo(self, n: int) :
+        if n>=1 and n&(n-1)==0:
+            return 1
+        else:
+            return 0           
+            
+            
+            
+            
+            
